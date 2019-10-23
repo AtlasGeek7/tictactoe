@@ -1,0 +1,45 @@
+h2 {
+  animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+#btn {
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+  height: 50px;
+  font-weight: bold;
+}
+#header {
+  background-color: #cccccc;
+  background-image: url("bg.jpg");
+  height: 120px;
+}
+#main {
+  background-color: #cccccc;
+  margin-top: 0px;
+  background-image: url("petals.jpg");
+}
+#layer {
+  position: absolute;
+  top: 120px;
+  left: 10px;
+  width:100% ;
+  height: 480px;
+  opacity: 0;
+  z-index: 10;
+}
+td {
+  font-weight: bold;
+  text-align: center;
+}
+.cell {
+    font-weight: bold;
+    text-align: center;
+}
+#player, #mrbot {
+  font-size: 1.5em;
+}
